@@ -1,6 +1,7 @@
 # Оставляем заметки
 
 Проект представляет собой набор скриптов для работы с онлайн органайзером [Evernote](https://evernote.com/intl/ru).
+Они позволяют создавать заметки и проверять входящие сообщения.
 
 
 ## Как установить
@@ -11,7 +12,7 @@ EVERNOTE_CONSUMER_KEY=Получить можно, нажав на GET AN API KE
 EVERNOTE_CONSUMER_SECRET=Выдается вместе с Consumer key
 EVERNOTE_PERSONAL_TOKEN=Получить можно в разделе OAuth
 
-JOURNAL_TEMPLATE_NOTE_GUID= код вашего шаблона заметки можно получить из адресной строки https://evernote.com/...n=[Нужный вам код здесь]&...
+JOURNAL_TEMPLATE_NOTE_GUID=Код шаблона заметки получаем из адресной строки https://evernote.com/...n=[Нужный вам код здесь]&...
 JOURNAL_NOTEBOOK_GUID=Получить можно после создания блокнота, при запуске скрипта list_notebooks.py
 
 INBOX_NOTEBOOK_GUID=Получить можно так же после создания блокнота, при запуске скрипта list_notebooks.py
